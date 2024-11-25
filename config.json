@@ -16,15 +16,5 @@
     "1935/tcp": 1935
   },
   "startup": "application",
-  "options": {
-	  "RTSP_PROTOCOLS": "tcp",
-	  "RTSP_PATHS_ALL_RUNONDEMAND": "echo 'incoming'",
-	  "RTSP_PATHS_ALL_RUNONDEMANDRESTART": "yes"
-  },
-  "schema": {
-	  "RTSP_PROTOCOLS": "list(tcp)",
-	  "RTSP_PATHS_ALL_RUNONDEMAND": "list(echo 'incoming')",
-	  "RTSP_PATHS_ALL_RUNONDEMANDRESTART": "list(yes)"
-  },
   "image": "bluenviron/mediamtx"
 }
